@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hailey Chaewon Park Portfolio</title>
+  </head>
+  <link rel="stylesheet" href="style/main.css" />
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <body>
+    <header>
+    <nav>
+      <ul>
+        <li>@2022</li>
+        <li>FULL-STACKED</li>
+        <li>DEVELOPER</li>
+      </ul>
+    </nav>
+    <div class="menu-wrap">
+      <div class="btnHome">
+        <a href="index.html">Hailey. Park</a>
+      </div>
+      <ul class="menu-ul">
+        <li class="menu-li"><a href="index.html">PROJECTS</a></li>
+        <li class="menu-li"><a href="contact.html">CONTACT</a></li>
+        <li class="menu-li"><a href="korean.html">KOREAN</a></li>
+      </ul>
+      <div class="copyright"><div>@HAILEY_PARK_</div></div>  
+    </div> 
+    </header>
+    <section id="main"> 
+      <div class="project_list">
+        <script>
+          var prjTitle = ["ECA", "BOHAE", "SKINRx LAB", "INUS", "COREELLE", "DCTRL", "SURFEA", "WHEN_BEAUTY", "AG7" ,"SOLVED_SKINCARE", "PICKY_WICKY"];
+var prjYear = ["2020","2020","2021","2022","2021","2021","2020","2020","2020","2021","2020","2020","2019","2022"];
+var prjRole = ["Lead Developer","Lead Developer","Lead Developer","Lead Developer","Lead Developer","Lead Developer","Lead Developer","Front-end Developer","Lead Developer","Lead Developer","Lead Developer","Front-end Developer","Full-Stack Developer","Lead Developer"];
+var prjTool = ["SCSS, Java Script, JQuery, Mysql","Java Script, JQuery","Java Script, JQuery","Java Script, JQuery","Java Script, JQuery","SCSS, Java Script, JQuery","Java Script, JQuery","Java Script, JQuery","Java Script, JQuery","Java Script, JQuery","Java Script, JQuery","Java Script, JQuery","C#, Java Script, JQuery, Mssql","Java Script, JQuery"];
+var prjExplain = ["Wordpress based Web. Exhale Creative Agency SEOUL official web site. ECA is specialized in branding and marketing for Korean company's entry into the U.S. market.","Shopify based Web. Bohae is a Mokpo-based, the best korean raspberry wine brand with a loyal customer base. Bohae is trying to enter the US market.","Shopify based Web. SKINRx LAB is Prescribing of MadeCera, which helps to solve your skin trouble.","Shopify based Web. Inus is a manufacturing & distribution company with the mission to giving everyone the pleasant experience of space, within their repetitive daily lives.","Shopify based Web. Coréelle is a platform that is dedicated to bringing authentic, original Korean Beauty brands accessible to the global public.","Wordpress based Web. DCTRL create data-based operation of online shopping malls with a responsive data analysis dashboard.","Shopify based Web. SURFEA is a swim and lifewear brand that values work-life balance and creates large and small journeys for women who love free lifestyles.","Shopify based Web. WHEN BEAUTY provides PREMIUM, INTELLIGENT SKIN CARE SOLUTIONS every time, everywhere, WHENever your skin needs a ‘mini spa by skin intelligence’ experience.","Shopify based Web. AG7 is a platform that provides pleasure and affluence with artworks. ","Shopify based Web. SOLVED SKINCARE is an environmentally friendly, vegan beauty brand that strives to extract the efficiencies of natural ingredients in the best form and find the most efficient way to provide them to your skin. ","Shopify based Web. Piki Wiki is looking at traditional Korean food Kimchi from a new perspective and introducing collaboration menus that are simple and various to enjoy kimchi with many partners around the world."];
+          for (var i = 1; i <=prjTitle.length; i++) {
+            document.write('<div class="project_wrap">');
+            document.write('<div class="project_number">'+i+'</div>');
+            document.write('<div class="project_arrow"><img src="style/img/arrow.png" alt="arrow"></div>');
+            document.write('<div class="project_title">'+prjTitle[i-1]+'</div>');
+            document.write('<div class="project_pic"><img src="style/img/'+prjTitle[i-1]+'.jpg"></div>');
+            document.write('<div class="detail_wrap">');
+            document.write('<div class="detail_menu"><div>Hailey.Park</div><div><a class="closebtn" href="#">Close</a></div></div>');
+            document.write('<div class="detail_content"><div class="detail_left"><div class="detail_title">'+prjTitle[i-1]+'</div><div class="detail_explain">'+prjExplain[i-1]+'</div></div>');
+            document.write('<div class="detail_right">');
+            document.write('<div class="detail_info">');
+            document.write('<p>Year</p><p>'+prjYear[i-1]+'</p>');
+            document.write('<p>Role</p><p>'+prjRole[i-1]+'</p>'); 
+            document.write('<p>Tools</p><p>'+prjTool[i-1]+'</p></div></div></div>');//content close
+            document.write('<div class="detail_gallery">');
+              document.write('<img onerror="this.remove ? this.remove() : this.removeNode();" src="style/img/detail/detail_'+prjTitle[i-1]+'.jpg">');
+            document.write('</div><button class="topbtn">TOP</button></div></div>'); 
+          }
+      </script>
+      </div>
+          </div>
+        </div>
+      </div></div>
+
+      </div>
+    </section>
+  </body>
+  <script src="custom.js"></script>
+</html>
