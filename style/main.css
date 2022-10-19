@@ -141,6 +141,16 @@ header .menu-wrap .copyright div {
   color: #191919;
   z-index: 5;
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+  #main .project_wrap .project_title {
+    font-size: 5rem;
+  }
+}
+@media (max-width: 767px) {
+  #main .project_wrap .project_title {
+    font-size: 4.5rem;
+  }
+}
 #main .project_wrap .project_title.active {
   color: #2e9168;
 }
@@ -295,6 +305,16 @@ header .menu-wrap .copyright div {
   font-size: 1.8rem;
   color: #191919;
   margin-bottom: 100px;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  #main .about_wrap {
+    width: 70%;
+  }
+}
+@media (max-width: 767px) {
+  #main .about_wrap {
+    width: 80%;
+  }
 }
 #main .about_wrap strong {
   font-size: 3rem;
