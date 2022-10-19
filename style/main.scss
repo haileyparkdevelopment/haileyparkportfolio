@@ -161,7 +161,16 @@ header{
             font-weight: bold;
             color:$main-font-color;
             z-index: 5;
+
+            @include tablet{
+                font-size: 5rem;
+              }
+
+            @include mobile{ 
+                font-size: 4.5rem;
+              }
         }
+
         .project_title.active{
             color:$point-color;
         }
@@ -333,6 +342,15 @@ header{
         font-size: 1.8rem;
         color:$main-font-color;
         margin-bottom: 100px;
+        
+
+        @include tablet{
+            width:70%;
+          }
+
+        @include mobile{ 
+            width:80%;
+          }
 
         strong{
             font-size: 3rem;
