@@ -192,7 +192,6 @@ header .menu-wrap .copyright div {
   font-weight: bold;
   text-decoration: none;
   color: #191919;
-  cursor: pointer;
   text-decoration: none;
   opacity: 0;
   -webkit-animation: fadeIn 1s forwards;
@@ -293,7 +292,6 @@ header .menu-wrap .copyright div {
   width: 60px;
   height: 60px;
   font-weight: 900;
-  cursor: pointer;
   color: WHITE;
 }
 #main .detail_wrap .topbtn:hover {
