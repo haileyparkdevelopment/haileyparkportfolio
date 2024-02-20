@@ -9,6 +9,7 @@ $point-color:#2e9168;
 
 $main-font: 'Manrope', sans-serif;
 
+
 html{
     cursor: url('img/smile.png'), auto;
 }
@@ -215,7 +216,7 @@ header{
             font-weight: bold;
             text-decoration: none;
             color: #191919;
-            cursor:pointer;
+            cursor: url("img/smile.png"), auto;
             text-decoration: none;
             opacity: 0;
             -webkit-animation: fadeIn 1s forwards;
@@ -327,7 +328,7 @@ header{
             width: 60px;
             height: 60px;
             font-weight: 900;
-            cursor: pointer;
+            cursor: url("img/smile.png"), auto;
             color:WHITE;
         }
 
