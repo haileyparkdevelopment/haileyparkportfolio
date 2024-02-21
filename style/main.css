@@ -8,6 +8,7 @@
 body {
   margin: 0;
   background: #ece8e1;
+  cursor: url('img/smile.png'), auto;
 }
 
 header {
@@ -68,6 +69,7 @@ header .menu-wrap .btnHome a {
   font-weight: bold;
   text-decoration: none;
   color: #191919;
+  cursor: url('img/smile.png'), auto;
 }
 header .menu-wrap .menu-ul {
   display: flex;
@@ -86,6 +88,7 @@ header .menu-wrap .menu-ul .menu-li a {
   color: #191919;
   text-decoration: none;
   padding: 15px;
+  cursor: url('img/smile.png'), auto;
 }
 header .menu-wrap .menu-ul .menu-li a.active {
   border-radius: 50%;
@@ -194,6 +197,7 @@ header .menu-wrap .copyright div {
   animation: fadeIn 1s forwards;
   -webkit-animation-delay: 0.4s;
           animation-delay: 0.4s;
+  cursor: url('img/smile.png'), auto;
 }
 #main .detail_wrap .detail_content {
   display: flex;
@@ -346,6 +350,7 @@ header .menu-wrap .copyright div {
 }
 #main .about_wrap .getintouch a {
   margin-right: 30px;
+  cursor: url('img/smile.png'), auto;
 }
 #main .about_wrap .getintouch img:last-child {
   margin-right: 0;
